@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+    hello_world:
+        build:
+            context: .
+        ports:
+            - 80:80
